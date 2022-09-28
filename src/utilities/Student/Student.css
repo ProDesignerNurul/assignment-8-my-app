@@ -1,0 +1,9 @@
+.student-card{
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    padding: 15px;
+}
+.student-card img{
+    width: 100%;
+    border-radius: 5px;
+}
