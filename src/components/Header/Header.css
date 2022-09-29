@@ -1,0 +1,10 @@
+.nav-menu{
+    padding: 10px 20px;
+    background-color: brown;
+}
+.nav-menu a{
+    color: wheat;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 20px;
+}
