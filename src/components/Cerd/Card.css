@@ -30,6 +30,28 @@
 .owner-details div h4{
     margin: 10px 20px;
 }
+.break-time{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    border: 1px solid gray;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.break-time h3{
+    margin: 0 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px gray;
+}
+.break-time h3:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
 .total-hour{
     background-color: aliceblue;
     width: 80%;

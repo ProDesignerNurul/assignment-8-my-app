@@ -28,6 +28,16 @@ const Card = ({ card }) => {
                     </div>
                 </div>
             </div>
+            <div>
+                <h2>Add A Break</h2>
+                <div className='break-time'>
+                    <h3>25</h3>
+                    <h3>30</h3>
+                    <h3>15</h3>
+                    <h3>10</h3>
+                    <h3>20</h3>
+                </div>
+            </div>
             <div className='right-side-card-area'>
                 <h2>Exercise Details</h2>
                 {/* <p>Card Length : {card.length}</p> */}
