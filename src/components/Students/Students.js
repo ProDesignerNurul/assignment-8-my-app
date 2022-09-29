@@ -142,7 +142,7 @@ const Students = () => {
     }, [])
     
     const handleAddToCard = (student) => {
-        console.log(student)
+        // console.log(student)
         const newCard = [...card, student]
         setCard(newCard);
     }
