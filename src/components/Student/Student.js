@@ -14,9 +14,9 @@ const Student = (props) => {
     return (
         <div className='student-card'>
             <img src={img} alt="" />
-            <h2>name : {name}</h2>
+            <h2>{name}</h2>
             <h4>Spend Time : {spendTime}s</h4>
-            <p>Descriptions : {descriptions}</p>
+            <p>{descriptions}</p>
             <button onClick={() => handleAddToCard(student)} className='add-btn'>Add To Card </button>
         </div>
     );
