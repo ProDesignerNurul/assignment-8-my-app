@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
-import FakeData from './utilities/FakeData/FakeData';
+import Students from './components/Students/Students';
 
 function App() {
   return (
     <div className="App">
-      <FakeData></FakeData>
+      <Students></Students>
     </div>
   );
 }

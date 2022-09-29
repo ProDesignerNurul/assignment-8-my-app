@@ -1,0 +1,58 @@
+.right-side-area{
+    margin-top: 50px;
+    align-items: center;
+}
+.profile-details{
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+.profile-details div{
+    line-height: 5px;
+}
+.profile-details img{
+    width: 50px;
+    border-radius: 40%;
+}
+.owner-details{
+    width: 60%;
+    /* height: 50px; */
+    background-color: rgb(252, 240, 225);
+    border-radius: 10px;
+    margin: 20px auto;
+    border: 1px solid gray;
+    
+}
+.owner-details div{
+    display: flex;
+    
+}
+.owner-details div h4{
+    margin: 10px 20px;
+}
+.total-hour{
+    background-color: aliceblue;
+    width: 80%;
+    margin: 10px auto;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    box-sizing: border-box;
+
+}
+.total-hour span{
+    margin-left: 20px;
+}
+.right-side-card-area button{
+    background-color: rgb(19, 252, 11);
+    border: none;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.right-side-card-area button:hover{
+    background-color: coral;
+    cursor: pointer;
+    color: white;
+}
