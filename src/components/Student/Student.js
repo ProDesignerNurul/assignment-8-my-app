@@ -10,6 +10,7 @@ const Student = (props) => {
     // }
     // const handleAddToCard = () => {
     //     console.log('added card')
+    //     console.log('added card')
     // }
     return (
         <div className='student-card'>
